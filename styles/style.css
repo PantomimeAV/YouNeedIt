@@ -1,1 +1,44 @@
-/* место для вашего кода */
+
+header {
+    display: flex;
+    justify-content:space-around;
+
+}
+
+img {
+    width: 148px; /*на время*/
+}
+
+  .links-list {
+    display: flex;
+   /* только у первого 
+    list-style: none; */
+  }
+  
+  .links-list__item {
+    margin-left: 15px;
+  }
+  
+  .link-list__link {
+    color: currentColor;
+    text-decoration: underline;
+  }
+  
+  .link-list__link:hover {
+    text-decoration: none;
+  }
+
+
+  .content-list {
+    list-style: none;
+  }
+  
+  .content-list__link {
+    color: currentColor;
+    
+    text-decoration: underline;
+  }
+  
+  .content-list__link:hover {
+    text-decoration: none;
+  }
